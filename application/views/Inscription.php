@@ -9,7 +9,7 @@
 <body>
 
             <h2><center>Inscrivez-vous</center> </h2> 
-         
+            <?php echo form_open('Inscript/signup'); ?>
                 <h5>Nom</h5>
                 <input type="text" class="form-control" placeholder="Nom+prénom" name="nomUser"  value="Votre nom">
             
