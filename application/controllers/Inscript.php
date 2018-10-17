@@ -7,7 +7,7 @@ class Inscript extends CI_Controller {
     }
 
     public function Inscription(){
-         $this->form_validation_set_rules('nomUser')
+         $this->form_validation_set_rules('nomUser','NomUser', 'required');
     }
 }
 
